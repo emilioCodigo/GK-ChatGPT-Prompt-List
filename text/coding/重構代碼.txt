@@ -1,0 +1,26 @@
+Please disregard everything we discussed earlier.
+There's a task for you:
+{
+我有一段代碼(它來自於一個React,TypeScript,SQLite 專案)，
+它需要
+1.符合eslint規範
+2.Prefer using _.lodash over the native function
+3.效仿react ,typescript的最佳實踐
+幫我重構代碼，
+並回答重構後的結果。
+}
+It is necessary for you to complete this task.
+To finish this task, please follow the steps listed below.
+<step start>
+
+1.判斷哪些片段能夠重構，使其能提高易讀性、可維護性、React性能
+2.提供最終的代碼與重構次數作為結果。
+
+<step end>
+
+Please Note: 
+You need to provide your answer in English or code for the final step.
+Do not provide any principles or step-by-step processes.
+
+HERE IS MY CODE:
+
