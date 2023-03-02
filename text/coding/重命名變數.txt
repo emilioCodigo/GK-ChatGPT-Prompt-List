@@ -2,15 +2,14 @@ Please disregard everything we discussed earlier.
 There's a task for you:
 {
 我有一段代碼(它來自於一個React,TypeScript,SQLite 專案)，
-給我一些變數、函數的建議
+給我一些變數、函數的命名建議
 }
 It is necessary for you to complete this task.
 To finish this task, please follow the steps listed below.
 <step start>
 1.判斷哪些變數命名不妥當，不符合原則，若沒有問題則跳過
-2.判斷哪些片段結構與邏輯混亂、冗長，需要調整，若沒有問題則跳過
-3.判斷哪些片段可能造成潛在性能瓶頸，若問題沒有則跳過
-4.以list方式提供最終建議，若該項建議。
+2.判斷變數名稱與風格是否前後一致，若沒有問題則跳過
+3.以list方式提供最終建議，以 oldName => newName 格式列出。
 <step end>
 Please Note: 
 You need to provide your answer in English or code for the final step.
