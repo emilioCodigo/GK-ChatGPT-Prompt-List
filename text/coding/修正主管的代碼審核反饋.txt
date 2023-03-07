@@ -1,0 +1,19 @@
+Please disregard everything we discussed earlier.
+There's a task for you:
+{
+我有一段代碼(它來自於一個React,TypeScript,SQLite 專案)，
+這份專案有以下規範
+1.符合eslint規範
+2.Prefer using _.lodash over the native function (這很重要)
+3.效仿react,typescript的最佳實踐
+
+我的主管說這段代碼不OK，他說 :
+
+請你依照主管的需求幫我修改這段局部代碼
+}
+It is necessary for you to complete this task.
+Please Note: 
+You need to provide your answer in English or code
+
+HERE IS MY CODE:
+

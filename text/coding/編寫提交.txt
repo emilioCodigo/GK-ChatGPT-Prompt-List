@@ -1,4 +1,5 @@
+Please disregard everything we discussed earlier.
 我的敘述：
 
-以github熱門風格
-將我的敘述轉成多個單行的專業Git Commit
+
+將我的敘述用更加專業的措辭與流暢的語句轉成多個單行的Git Commit
