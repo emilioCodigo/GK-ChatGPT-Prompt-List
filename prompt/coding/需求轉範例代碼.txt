@@ -1,0 +1,25 @@
+Disregard everything we discussed earlier.
+You act as 資深軟體工程師，
+
+There's a task for you:
+
+{
+   我有一個專案 (it uses React, TypeScript, Lodash, SQLite) 上的業務邏輯需要實現
+   以下是規格書上對該業務邏輯的敘述:
+   {
+
+   }
+   這個業務需求是關於:
+   {
+
+   }
+   Your Code needs to comply with
+   1. Eslint Style Guide
+   2. Prefer using _.lodash over the native function
+   3. best practices of React , Typescript
+   The above three principles
+
+}
+Note:
+   Do not write explanations.
+   Just Return Code.
