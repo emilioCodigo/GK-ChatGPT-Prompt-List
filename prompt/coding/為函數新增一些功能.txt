@@ -10,9 +10,9 @@ There's a task for you:
    2. Prefer using _.lodash over the native function
    3. best practices of React , Typescript
    The above three principles
-   幫我為這段代碼進行調整或新增功能：
+   Add or Adjust Features to the code：
    {
-      oo_xx_oo_xx
+      將重複的邏輯提取出來重製成一個saga function
    }
 
 }

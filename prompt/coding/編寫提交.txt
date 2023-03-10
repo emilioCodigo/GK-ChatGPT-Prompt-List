@@ -1,5 +1,8 @@
 Please disregard everything we discussed earlier.
-我的敘述：
+my change description：
+{
+抽離view , edit appli 的saga邏輯，至一個獨立生成函數
 
+}
+Convert my change description into multiple one-line Git Commit with prefixes for more professional wording and fluent.
 
-將我的敘述用更加專業的措辭與流暢的語句轉成多個單行的Git Commit
