@@ -7,7 +7,10 @@ There's a task for you:
 2.Prefer using _.lodash over the native function (這很重要)
 3.效仿react,typescript的最佳實踐
 
-我的主管說這段代碼不OK，他說 :
+我的主管說這段代碼不OK，他說 : [
+
+   
+]
 
 請你依照主管的需求幫我修改這段局部代碼
 }
