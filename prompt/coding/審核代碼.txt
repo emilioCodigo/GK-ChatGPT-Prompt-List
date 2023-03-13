@@ -7,7 +7,7 @@ There's a task for you:
    I have a code (it comes from a project that uses React, TypeScript, Lodash, SQLite) 
    Code prefers to use Eslint Style Guide
    Code prefers to use best practices of React,Typescript
-   Code prefers using _.lodash over the native function
+   Code prefers to use _.lodash over the native function
    Code prefers to make the code smaller
    Code prefers to make the code faster
    Code prefers to use clean code architecture principles

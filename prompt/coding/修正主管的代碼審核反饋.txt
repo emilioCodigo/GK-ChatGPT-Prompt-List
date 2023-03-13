@@ -5,7 +5,7 @@ There's a task for you:
 這份專案有以下規範
    Code prefers to use Eslint Style Guide
    Code prefers to use best practices of React,Typescript
-   Code prefers using _.lodash over the native function
+   Code prefers to use _.lodash over the native function
    Code prefers to make the code smaller
    Code prefers to make the code faster
    Code prefers to use clean code architecture principles

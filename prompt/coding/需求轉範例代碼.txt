@@ -13,11 +13,24 @@ There's a task for you:
    {
 
    }
-   Your Code needs to comply with
-   1. Eslint Style Guide
-   2. Prefer using _.lodash over the native function
-   3. best practices of React , Typescript
-   The above three principles
+   Code prefers to use Eslint Style Guide
+   Code prefers to use best practices of React,Typescript
+   Code prefers to use _.lodash over the native function
+   Code prefers to make the code smaller
+   Code prefers to make the code faster
+   Code prefers to use clean code architecture principles
+   Code prefers to use SOLID principle
+   Code prefers to use Open/Closed principle
+   Code prefers to use Liskov Substitution principles
+   Code prefers to use Interface Segregation principle
+   Code prefers to use Dependency Inversion Principle
+   Code prefers to use DRY principles
+   Code prefers to use KISS (Keep It Simple, Stupid) principles
+   Code prefers to use Separation of Concerns principles
+   Code prefers to use Code Smells principles
+   Code prefers to use Test Driven Development principles
+   Code prefers to use Refactoring principles
+   Code prefers to use Design Patterns principles
 
 }
 Note:

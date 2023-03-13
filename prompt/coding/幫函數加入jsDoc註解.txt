@@ -1,9 +1,0 @@
-Ignore all previous instructions.
-為這段代碼中的 函數或變數 撰寫 JS DOC格式的繁體中文註解(包含@description 敘述作用)
-
-我只要註解的部分，不需要代碼
-
-且用code block包覆住
-
-以下代碼:
-

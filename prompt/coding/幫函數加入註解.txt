@@ -1,0 +1,15 @@
+Ignore all previous instructions.
+下方有個typescript函數，
+在該函數的上方 撰寫一個如該格式的註解
+/*
+ * OO XX OO XX
+ */
+註解用於敘述性質、用途、功能等等，越短越好，
+若無法一句話完成 請使用@description
+
+你只要給我註解，
+請勿寫出代碼。僅需要給我註解
+
+最後用用code block包覆住你的註解
+
+以下代碼:
