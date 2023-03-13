@@ -1,4 +1,4 @@
-Disregard everything we discussed earlier.
+Ignore all previous instructions.
 You act as senior developer，
 There's a task for you:
 {

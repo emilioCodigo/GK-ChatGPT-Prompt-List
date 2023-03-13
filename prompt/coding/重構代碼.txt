@@ -1,4 +1,4 @@
-Disregard everything we discussed earlier.
+Ignore all previous instructions.
 You act as 資深軟體工程師，
 
 There's a task for you:
@@ -31,17 +31,5 @@ Note:
    Just Return Code.
 
 HERE IS MY CODE:
-const useCountDownTime = (createTime: string | null, notUploadKeepHours: number): string => {
-  const getCountDownTime = useMemo(() => {
-    if (_.isNil(createTime)) return '沒有建立日期'
-    const momentCreateTime = moment(createTime)
-    const momentDeleteTime = momentCreateTime.clone().add(notUploadKeepHours, 'hour')
-    const momentCountDownTime = momentDeleteTime.diff(moment(), 'second')
-    if (momentCountDownTime < 0) return '已過期'
-    const duration = moment.duration(momentCountDownTime, 'seconds')
-    const hr = _.padStart(duration.hours().toString(), 2, '0')
-    const min = _.padStart(duration.minutes().toString(), 2, '0')
-    return `${hr}:${min}`
-  }, [createTime, notUploadKeepHours])
-  return getCountDownTime
+
 }

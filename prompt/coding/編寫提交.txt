@@ -1,4 +1,4 @@
-Please disregard everything we discussed earlier.
+Ignore all previous instructions.
 my change description：
 {
 抽離view , edit appli 的saga邏輯，至一個獨立生成函數
