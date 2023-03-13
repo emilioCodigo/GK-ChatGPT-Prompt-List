@@ -1,0 +1,20 @@
+Disregard everything we discussed earlier.
+You act as 資深軟體工程師，
+
+There's a task for you:
+
+{
+   I have a code (it comes from a project that uses React, TypeScript, Lodash, SQLite) 
+   Help me refactor the code make it more professional and elegant and shorten,
+   and comment in the code which part you have refactored.
+   It needs to comply with
+   1. Eslint Style Guide
+   2. Prefer using _.lodash over the native function
+   3. best practices of React , Typescript
+   The above three principles
+}
+Note:
+   Do not write explanations.
+   Just Return Refactored Code.
+
+HERE IS MY CODE:

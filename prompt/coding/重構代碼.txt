@@ -7,14 +7,41 @@ There's a task for you:
    I have a code (it comes from a project that uses React, TypeScript, Lodash, SQLite) 
    Help me refactor the code make it more professional and elegant and shorten,
    and comment in the code which part you have refactored.
-   It needs to comply with
-   1. Eslint Style Guide
-   2. Prefer using _.lodash over the native function
-   3. best practices of React , Typescript
-   The above three principles
+   You need to use Eslint Style Guide
+   You need to use best practices of React,Typescript
+   You Prefer using _.lodash over the native function
+   You need to make the code smaller
+   You need to make the code faster
+   You need to use clean code architecture principles
+   You need to use SOLID principle
+   You need to use Open/Closed principle
+   You need to use Liskov Substitution principles
+   You need to use Interface Segregation principle
+   You need to use Dependency Inversion Principle
+   You need to use DRY principles
+   You need to use KISS (Keep It Simple, Stupid) principles
+   You need to use Separation of Concerns principles
+   You need to use Code Smells principles
+   You need to use Test Driven Development principles
+   You need to use Refactoring principles
+   You need to use Design Patterns principles
 }
 Note:
    Do not write explanations.
-   Just Return Refactored Code.
+   Just Return Code.
 
 HERE IS MY CODE:
+const useCountDownTime = (createTime: string | null, notUploadKeepHours: number): string => {
+  const getCountDownTime = useMemo(() => {
+    if (_.isNil(createTime)) return '沒有建立日期'
+    const momentCreateTime = moment(createTime)
+    const momentDeleteTime = momentCreateTime.clone().add(notUploadKeepHours, 'hour')
+    const momentCountDownTime = momentDeleteTime.diff(moment(), 'second')
+    if (momentCountDownTime < 0) return '已過期'
+    const duration = moment.duration(momentCountDownTime, 'seconds')
+    const hr = _.padStart(duration.hours().toString(), 2, '0')
+    const min = _.padStart(duration.minutes().toString(), 2, '0')
+    return `${hr}:${min}`
+  }, [createTime, notUploadKeepHours])
+  return getCountDownTime
+}

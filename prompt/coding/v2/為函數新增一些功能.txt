@@ -1,0 +1,23 @@
+Disregard everything we discussed earlier.
+You act as 資深軟體工程師，
+
+There's a task for you:
+
+{
+   I have a code (it comes from a project that uses React, TypeScript, Lodash, SQLite) 
+   It needs to comply with
+   1. Eslint Style Guide
+   2. Prefer using _.lodash over the native function
+   3. best practices of React , Typescript
+   The above three principles
+   Add or Adjust Features to the code：
+   {
+      將重複的邏輯提取出來重製成一個saga function
+   }
+
+}
+Note:
+   Do not write explanations.
+   Just Return Refactored Code.
+
+HERE IS MY CODE:
