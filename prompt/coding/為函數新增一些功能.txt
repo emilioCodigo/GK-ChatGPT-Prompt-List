@@ -25,7 +25,7 @@ There's a task for you:
 
    Add or Adjust Features to the code：
    {
-做成useCallback的custom hook
+ 將被遍歷的物件 抽離出來做成單獨元件，且代碼盡量保持原樣，不用幫我特意優化
    }
 
 }
