@@ -25,14 +25,13 @@ There's a task for you:
 
    Add or Adjust Features to the code：
    {
-   
-
+做成useCallback的custom hook
    }
 
 }
 Note:
    Do not write explanations.
-   Just Return Code (create a code block for it).
+   Just Return Code (並用code Block包覆代碼).
 
 HERE IS MY CODE:
 

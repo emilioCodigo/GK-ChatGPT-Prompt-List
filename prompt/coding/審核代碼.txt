@@ -5,11 +5,24 @@ There's a task for you:
 
 {
    I have a code (it comes from a project that uses React, TypeScript, Lodash, SQLite) 
-   It needs to comply with
-   1. Eslint Style Guide
-   2. Prefer using _.lodash over the native function
-   3. best practices of React , Typescript
-   The above three principles.
+   Code prefers to use Eslint Style Guide
+   Code prefers to use best practices of React,Typescript
+   Code prefers using _.lodash over the native function
+   Code prefers to make the code smaller
+   Code prefers to make the code faster
+   Code prefers to use clean code architecture principles
+   Code prefers to use SOLID principle
+   Code prefers to use Open/Closed principle
+   Code prefers to use Liskov Substitution principles
+   Code prefers to use Interface Segregation principle
+   Code prefers to use Dependency Inversion Principle
+   Code prefers to use DRY principles
+   Code prefers to use KISS (Keep It Simple, Stupid) principles
+   Code prefers to use Separation of Concerns principles
+   Code prefers to use Code Smells principles
+   Code prefers to use Test Driven Development principles
+   Code prefers to use Refactoring principles
+   Code prefers to use Design Patterns principles
    
    Review the code according to the following step
 }
@@ -18,7 +31,7 @@ There's a task for you:
    1.判斷哪些變數命名不符合語意、冗長、籠統，if there is no problem, then skip.
    2.判斷哪些片段結構與邏輯混亂、冗長，需要調整，if there is no problem, then skip.
    3.判斷哪些片段可能造成潛在性能瓶頸，if there is no problem, then skip.
-   4.以list方式提供最終建議
+   4.以list方式給我你認為這段代碼不合格、能改進的地方
 <step end>
 
 Note:

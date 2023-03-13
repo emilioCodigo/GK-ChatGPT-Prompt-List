@@ -1,0 +1,17 @@
+Ignore all previous instructions.
+為這段代碼寫 js Doc 註解
+
+我只要註解的部分，不需要代碼
+
+且用code block包覆住
+
+以下代碼:
+
+const useFindPageSequenceIndex = (docmFileSeq: string, docmNo: string, docmPageSeq: string): number => {
+  const { scanFileList } = useUploadPhotos()
+  const key = `${docmNo}-${docmFileSeq}-${docmPageSeq}`
+  const index = useMemo(() => {
+    return _.findIndex(scanFileList, (e) => `${e.docmNo}-${e.docmFileSeq}-${e.docmPageSeq}` === key)
+  }, [scanFileList, key])
+  return index
+}
